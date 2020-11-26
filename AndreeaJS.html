@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head><title> Pagina profil Tălpău Andreea</title>
+<link rel="stylesheet" type="text/css" href="catalog_styles.css">
+<script>
+function refresh()
+{
+document.getElementById("Nume").innerHTML = "Viitor inginer si model Talpau Andreea";
+document.getElementById("poza").src="DSC_0136.jpeg";
+document.getElementById("poza").style.width ="320px";
+document.getElementById("poza").style.opacity="75%";
+document.getElementById("poza").style.border="15px";
+document.body.style.backgroundColor="#b3b3ff";
+}
+</script>
+<style>
+body {
+  background-color: lightpink;
+}
+
+h1 {
+  color: darkgreen;
+  text-align: center;
+  text-shadow: 2px 2px 5px white;
+}
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 300px;
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+p {
+  font-family:gigi;
+  font-size: 20px;
+  color: darkgreen;
+  
+}
+h2 { font-family:verdana;
+    
+	 color:#5900b3;
+	 }
+ img.Moda{
+  border-radius: 50%;
+  opacity: 0.8; 
+}
+img.makeup {
+border-radius: 30%;
+opacity: 0.8;
+}
+table, th, td {
+  border-collapse: collapse;
+  border: 1px solid black;
+   width: 100%;
+}
+ul {background: #ffe6e6;
+padding: 22 px;}
+ul li {  background: #ffcce0;
+margin: 4px;}
+</style>
+</head>
+<body>
+<button onclick="refresh()">Alta viata</button>
+<h1 id="Nume">Tălpău Andreea</h1>
+  <img id="poza" src="talpauandreea.poza.jpeg" width="300" height="480">
+  <p>Descrierea propriei persoane:</p>
+  <p>Nume și prenume: Tălpău Andreea</p>
+  <p>Facultatea: ETTI Cluj-Napoca</p>
+  <p>Date de contact:</p>
+  <p>Facebook: Ghi Ghi</p>
+  <p>Instagram: _ghi_ghi_</p>
+  <p>Email: Talpau.Gh.Andreea@utcluj.didatec.ro</p>
+  <p>Citat preferat:</p>
+  <p>    "Ce rost are griji a-ti face? </p>                      
+  <p>     La nimic nu-ți folosește, </p>
+  <p>     Așa, pune grijile deoparte, </p>
+  <p>     Și zâmbește, zâmbește, zâmbește." </p>
+  <p>                   G. Asaf</p>
+ <h2>Materii preferate din anul I</h2>
+ <table id="tabel">
+  <tbody>
+    <tr>
+	<td><a href="https://etti.utcluj.ro/files/FiseDisciplina/EaRo/05.pdf">Algebră liniară și geometrie diferențială</a></td>
+	<tr></tr> 
+	<td><a  href="https://etti.utcluj.ro/files/FiseDisciplina/EaRo/06.pdf">Teoria circuitelor electrice</a></td>
+    <tr></tr>
+    <td><a href="https://etti.utcluj.ro/files/FiseDisciplina/EaRo/05.pdf">Circuite și componente electronice pasive</a></td>
+  </tbody>
+ </table>
+ <h2>Pasiuni:</h2>
+    <ul>
+	  <li>Moda</li>
+	  <img class="Moda" src="fashion.jpeg" width="94" height="342">
+	  <li>Fotografie</li>
+	  <img class="barci" src="cercel.jpeg" width="134" height="170">
+	  <img class="f2" src="barci.jpeg" width="164" height="170">
+	  <li>Make-up</li>
+	  <img class="makeup" src="makeup.jpeg" width="104" height="242">
+</ul>
+<a class="link Catalog studenti ETTI Cluj-Napoca" href="catalog_css.html">Inapoi la cuprins</a>
+
+
+
+
+</body>
+</html>
